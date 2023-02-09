@@ -1,11 +1,29 @@
 Welcome to AsciiDocLIVE!
 ------------------------
+:icons: font
+:icontype: svg
+
 
 AsciiDocLIVE is a *free online http://www.methods.co.nz/asciidoc/[AsciiDoc^]
 editor*.
 
 * Just type AsciiDoc source text into the *left* pane,
 * ...and the live preview appears in the *right* pane!
+
+NOTE: An admonition paragraph draws the reader's attention to
+auxiliary information.
+Its purpose is determined by the label
+at the beginning of the paragraph.
+
+Here are the other built-in admonition types:
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that...
 
 What's AsciiDoc?
 ~~~~~~~~~~~~~~~~~
@@ -112,9 +130,11 @@ it was the age of foolishness...
 +
 image:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnGkmmvVpAk-BPqTFSiFZ2N-AqPv65Xd_uV0a88Yo6Sps9L3ExF7cAh_0aMW5vsVdT8QU&usqp=CAUp[alt="Enterprise D.",width=508,height=100%]
 
+<iframe width="885" height="664" src="https://www.youtube.com/embed/th_H1gixMEE" title="AsciiDocLIVE Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 * Videos:
 +
-video::https://youtu.be/th_H1gixMEE[youtube]
+video::RvRhUHTV_8k[youtube]
 
 * Pass-through: pass:[<div align="center"><b>pass through content</b></div>]
 
